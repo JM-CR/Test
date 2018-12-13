@@ -9,4 +9,4 @@ FROM busybox:latest
 MAINTAINER Josue Mosh <msi_98_98@yahoo.com.mx>
 
 # Instructions
-CMD echo "Hi friend!" >> /home/hello.txt
+COPY . /home
